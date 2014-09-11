@@ -24,7 +24,7 @@
 # ****************************************************************************/
 
 cmake_minimum_required(VERSION 2.8)
-project (Cocos2dx)
+project (Cocos2d-X)
 
 # The version number
 set(COCOS2D_X_VERSION 3.3.0)
@@ -137,6 +137,7 @@ link_directories(
   ${CMAKE_CURRENT_SOURCE_DIR}/external/png/prebuilt/${PLATFORM_FOLDER_ARCH}
   ${CMAKE_CURRENT_SOURCE_DIR}/external/freetype2/prebuilt/${PLATFORM_FOLDER_ARCH}
   ${CMAKE_CURRENT_SOURCE_DIR}/external/websockets/prebuilt/${PLATFORM_FOLDER_ARCH}
+  ${CMAKE_CURRENT_SOURCE_DIR}/external/chipmunk/prebuilt/${PLATFORM_FOLDER_ARCH}
 )
 
 # libcocos2d.a
